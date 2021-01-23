@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{app.request.locale}}">
 	<head>
 		<meta charset="UTF-8">
 		<title>
-			{% block title %}Welcome!
+			{% block title %}Panterest
 			{% endblock %}
 		</title>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
@@ -11,33 +11,7 @@
 
 		{% block stylesheets %}
 			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-
-			<style>
-			html, body {
-            font-family:'Montserrat', sans-serif;
-
-			}
-				.alert {
-					padding: 10px;
-					color: white;
-					text-align: center;
-					margin: 0;
-					border: none;
-					border-radius: 0;
-				}
-				.alert-success {
-					background-color: green;
-
-				}
-				.alert-error {
-					background-color: red;
-				}
-				.alert-info {
-					background-color: blue;
-				}
-			</style>
-
+    
 		{% endblock %}
 
 	</head>
